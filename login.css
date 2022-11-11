@@ -1,0 +1,303 @@
+
+body{ background: url(rocket.png);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: 550px 10px; 
+    position: absolute;
+    background-attachment: fixed;
+
+    
+}
+
+
+.boz1{
+    height: 130px;
+     width: 150px;
+      border:0px solid black; 
+      border-radius: 50%;
+    animation: slides 3s ease-in infinite alternate;
+     background: url(piggy-bank.png); 
+     background-repeat: no-repeat;
+    background-size: 150px 150px;
+     margin-left: 1100px; 
+}
+@keyframes slides{
+    
+    30%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateX(20px); 
+        transform: translateY(20px);
+    
+    }
+}
+
+.mimi{
+    display: flex; 
+}
+.mim1{margin-top: 20px; 
+    margin-left: 20px; 
+    height: 50px; 
+    width: 100px; border: 0px solid black;
+     font-family:cursive;
+      font-size:x-large;
+    animation: shift 15s infinite alternate;
+     color:blue;
+}
+  
+@keyframes shift{
+    25%{
+        color:pink;}
+        50%{
+            color:violet; }
+            70%{
+                color:red;}
+            }
+
+    header{
+        width:100%;
+        max-width: 100%;
+        position:relative;
+    
+    }
+
+.mim2{
+    height: 50px; 
+    width: 100px; 
+    border: 0px solid black;
+     font-family:cursive; 
+     margin-left: 900px;
+    margin-top: 20px;
+    
+}
+.mim3{
+    margin-top: 20px;
+    height: 50px;
+     width: 100px; 
+     border: 0px solid black; 
+     font-family:cursive; 
+     margin-left: 50px;
+}
+
+#bu{
+    height: 50px;
+     width: 100px; 
+     border-radius: 10px; 
+     background-color:rgb(230, 193, 230) ;
+    transition: 1.5s; 
+}
+#tu{
+    height: 50px; 
+    width: 100px; 
+    border-radius: 10px;
+     background-color:rgb(131, 20, 175) ;
+    color:white;
+     transition: 1.5s; 
+}
+#bu:hover{
+    
+    height: 10mm;
+     width:20mm ;
+      border-radius: 50px; 
+      box-shadow:5px 5px 10px 0px gray;
+    background-color: rgb(173, 32, 201); 
+    color: aliceblue;
+    
+}
+#tu:hover{
+    
+    height: 10mm; 
+    width:20mm ;
+     border-radius: 50px;
+      box-shadow:5px 5px 10px 0px gray;
+    background-color: rgb(202, 141, 214);
+     color: black;
+    
+}
+
+.tandom{
+    border: 0px solid black;
+     margin-top: 0px; height: 
+     250px; display:
+      flex; width: 100%;
+}
+.tan1{
+    height: 250px;
+    width: 550px;
+    border: 0px solid black;
+     margin-left: 100px;
+}
+.tan2{
+    height: 350px;
+    width: 400px;
+    border: 2px solid transparent;
+     margin-left: 150px;  
+     backdrop-filter:blur(50px);
+    border-radius: 20px;
+    border-bottom: none;
+    animation: move 4s ease-in infinite alternate;
+}
+
+@keyframes move{
+    50%{
+        transform: translate(5px);
+
+    }
+    100%{
+        transform: translate(5px);
+    }
+
+ }
+
+#an1{
+    height: 60px; 
+    width: 350px;
+     border: 1px solid black; 
+     margin-top: 20px; 
+     margin-left: 20px;
+    background-color: white; 
+    display: flex; 
+    border-radius: 10px;
+}
+#cut1{
+    border: 0px solid black; 
+    height: 50px;
+     width: 50px; 
+     margin: 5px;
+}
+#cut2{
+    border: 0px solid black; 
+    height: 50px;
+     width: 250px; 
+     margin: 5px;
+}
+input{
+    height: 45px;
+     width: 250px; 
+     border: none;
+      outline: none; 
+      font-size: larger;
+}
+#an2{
+    height: 60px; 
+    width: 350px;
+     border: 1px solid black;
+      margin-top: 20px; 
+      margin-left: 20px;
+    background-color: white; 
+    display: flex; 
+    border-radius: 10px;
+}
+#dut1{
+    border: 0px solid black; 
+    height: 50px; 
+    width: 50px; 
+    margin: 5px;
+}
+#dut2{
+    border: 0px solid black; 
+    height: 50px; 
+    width: 250px; 
+    margin: 5px;
+}
+#an3{
+    height: 60px; 
+    width: 350px; 
+    border: 1px solid black; 
+    margin-top: 20px;
+     margin-left: 20px;
+    background-color: white; 
+    display: flex; 
+    border-radius: 10px;
+}
+#but1{
+    border: 0px solid black;
+     height: 50px;
+      width: 50px;
+       margin: 5px;
+}
+#but2{
+    border: 0px solid black; 
+    height: 50px; 
+    width: 250px; 
+    margin: 5px;
+}
+
+.coin:hover {
+    transform: translate(100%);
+    animation-play-state: paused;
+    animation: left-to-right 4s ease-in forwards infinite alternate;
+
+}
+
+@keyframes left-to-right{
+    0%{
+transform: translate(0);
+    }
+    33%{
+ transform: translateY(100%);
+    }
+    66%{
+        transform: translateX(100%) 
+        translateY(100%);
+    }
+    100%{
+        transform: translate(100%);
+    }
+}
+
+b{
+    font-size:60px;
+    font-family:cursive;
+}
+p{
+    font-size:large;
+    font-family:cursive;
+}
+
+#sign{
+    color: blue;
+}
+
+
+footer{
+    border: 0px solid black ; 
+    height: 70px; 
+    width: 150px;
+     margin-left: 100px;
+}
+.coin{ border: 0px solid black; 
+    height: 60px; 
+    width: 70px; 
+    transition:transform 1s ;
+    animation: left-to-right 4s 
+    ease-in forwards infinite alternate;
+}
+
+
+#cra{
+    margin-left: 50px; 
+    height: 50px; 
+    width: 300px; 
+    border-radius: 20px;
+   background-color: rgb(145, 84, 145);
+    color: white;
+     border: none;
+      margin-top: 20px;
+}
+#cra:hover {
+    box-shadow: 2px 2px 10px 0px gray;
+}
+
+.hand{
+    border: 0px solid black;
+     height: 200px;
+      width: 200px;
+       margin-left: 1000px;
+    background: url(astronaut.png);
+     background-repeat: no-repeat;
+      background-size: 200px 200px;
+    animation: slides 3s ease-in infinite alternate;
+}
